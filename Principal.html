@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- Declaración del tipo de documento como HTML5 -->
+<html lang="es">
+<!-- Inicio del documento HTML, especificando que el idioma es español -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Establece la codificación de caracteres a UTF-8 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura la ventana gráfica para asegurar que la página sea responsiva en dispositivos móviles -->
+
+    <title>AR City Tour - Tu guía virtual de la ciudad</title>
+    <!-- Define el título de la página que aparecerá en la pestaña del navegador -->
+
+    <link rel="stylesheet" href="/css/Principal.css">
+    <!-- Enlace a la hoja de estilos CSS externa que definirá el diseño de la página -->
+</head>
+
+<body>
+    <!-- Inicio del cuerpo del documento HTML, donde se define todo el contenido visible de la página -->
+
+    <nav>
+        <!-- Inicio del elemento de navegación, donde se encuentran los enlaces de la página -->
+        <ul>
+            <!-- Lista desordenada para los enlaces de navegación -->
+            <li><a href="Principal.html">Inicio</a></li>
+            <!-- Elemento de lista con un enlace a la página de inicio -->
+            <li><a href="Informacion.html">Información</a></li>
+            <!-- Elemento de lista con un enlace a la sección de información -->
+            <li><a href="Aplicacion.html">Aplicación</a></li>
+            <!-- Elemento de lista con un enlace a la sección de la aplicación -->
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <!-- Elemento de lista con un enlace a la sección de nosotros -->
+        </ul>
+    </nav>
+
+    <header>
+        <!-- Encabezado de la página donde se puede colocar un logo o imagen -->
+        <img src="/Materiales/Logo.png" alt="Imagen representativa de AR City Tour">
+        <!-- Imagen principal del encabezado con texto alternativo -->
+    </header>
+
+    <main>
+        <!-- Contenedor principal del contenido de la página -->
+        
+        <section class="informacion-principal">
+            <!-- Sección principal con información sobre AR City Tour -->
+            <h2>Conoce AR City Tour</h2>
+            <!-- Título de la sección -->
+            <div class="columnas">
+                <!-- Contenedor con las columnas de información -->
+
+                <div class="columna">
+                    <!-- Columna que describe el problema -->
+                    <h3>Problema</h3>
+                    <p>El problema visualizado es que si bien hay estatuas o edificios históricos, no hay información sobre ellas.</p>
+                </div>
+
+                <div class="columna">
+                    <!-- Columna que describe la solución que ofrece AR City Tour -->
+                    <h3>Solución</h3>
+                    <p>AR City Tour ofrece una experiencia de guía turística personalizada y atractiva a través de la realidad aumentada. Descubre lugares de interés, aprende sobre la historia local y recibe recomendaciones personalizadas, todo ello a través de tu smartphone o dispositivo móvil.</p>
+                </div>
+
+                <div class="columna">
+                    <!-- Columna que describe las características del producto -->
+                    <h3>Producto</h3>
+                    <p>Nuestra aplicación AR City Tour te permite:</p>
+                    <ul>
+                        <li>Visualizar lugares de interés en realidad aumentada</li>
+                        <li>Acceder a información histórica y cultural</li>
+                        <li>Visualizar realidad aumentada atractiva</li>
+                        <li>Navegar por la ciudad de forma fácil e intuitiva</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="mas-informacion">
+            <!-- Sección adicional para ofrecer más información sobre AR City Tour -->
+            <h2>Más sobre AR City Tour</h2>
+        </section>
+
+        <section class="contacto-encuesta">
+            <!-- Sección dedicada a proporcionar información de contacto y una encuesta -->
+            
+            <div class="contacto">
+                <!-- División del formulario de contacto -->
+                <h2>Contáctanos</h2>
+                <!-- Título de la sección de contacto -->
+                <form action="mailto:info@arcitytour.com" method="post">
+                    <!-- Formulario que envía los datos a través de correo electrónico -->
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    
+                    <label for="correo">Tu correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                    
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+
+            <div class="encuesta">
+                <!-- División para la sección de encuesta -->
+                <h2>Participa en nuestra encuesta</h2>
+                <p>Tu opinión nos ayuda a mejorar AR City Tour. Completa nuestra breve encuesta:</p>
+                <img src="/Materiales/Encuesta.png" alt="Imagen representativa de AR City Tour" width="30" height="30">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSclw2eekGH80PEbjZgRFEbCC5G_XTmCI0wFiHMtRif01k1tEg/viewform?usp=sf_link" target="_blank">Encuesta</a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <!-- Pie de página con mensaje de derechos reservados -->
+        <p>&copy; AR City Tour. La magia de la Realidad Aumentada contigo.</p>
+    </footer>
+
+    <script src="/js/Principal.js"></script>
+    <!-- Enlace al archivo de JavaScript externo -->
+</body>
+</html>
+<!-- Fin del documento HTML -->

@@ -1,0 +1,48 @@
+/* Estilos generales */
+body {
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 100vh; /* Ocupa toda la altura de la ventana del navegador */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    font-family: Arial, sans-serif; /* Fuente estándar */
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Texto de color gris oscuro */
+}
+
+/* Estilos del contenedor */
+.contenedor {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    background-color: white; /* Fondo blanco para el contenedor */
+    padding: 2rem; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para dar un efecto de elevación */
+}
+
+/* Estilos del título (h1) */
+h1 {
+    font-size: 2.5rem; /* Tamaño grande para el título */
+    margin-bottom: 1rem; /* Espacio debajo del título */
+}
+
+/* Estilos del párrafo (p) */
+p {
+    font-size: 1.2rem; /* Tamaño de texto para el párrafo */
+    margin-bottom: 2rem; /* Espaciado debajo del párrafo */
+}
+
+/* Estilos del botón (enlace) */
+a {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    padding: 0.75rem 1.5rem; /* Espaciado interno en el botón */
+    border: none; /* Sin bordes */
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+    cursor: pointer; /* Cambia el cursor a mano cuando se pasa sobre el enlace */
+    font-size: 1rem; /* Tamaño de fuente estándar para el botón */
+}
+
+/* Efecto hover para el botón */
+a:hover {
+    background-color: #555; /* Cambia el color de fondo del botón al pasar el mouse */
+}

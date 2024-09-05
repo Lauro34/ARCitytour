@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de navegación */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0px; /* Cambiar a un valor mayor si quieres que sea visible */
+}
+
+/* Estilos para la sección de información */
+.Informacion {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil para resaltar el contenedor */
+}
+
+.Informacion h2 {
+    color: #2c3e50; /* Color del título */
+    font-size: 28px; /* Tamaño del texto del título */
+    margin-top: 0;
+    border-bottom: 2px solid #000000; /* Línea debajo del título */
+    padding-bottom: 10px;
+}
+
+.Informacion p {
+    color: #555; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    line-height: 1.8; /* Espaciado entre líneas */
+    margin-bottom: 30px;
+    text-align: justify; /* Alineación justificada */
+}
+
+#Mision {
+    margin-bottom: 40px; /* Espacio adicional debajo del párrafo de misión */
+}
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .Informacion {
+        padding: 20px;
+    }
+
+    .Informacion h2 {
+        font-size: 24px;
+    }
+
+    .Informacion p {
+        font-size: 16px;
+    }
+}

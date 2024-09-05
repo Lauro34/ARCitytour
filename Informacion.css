@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de navegación */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0px; /* Actualmente no visible debido a este valor */
+}
+
+/* Estilos del título */
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Estilos de las secciones flotantes: Problema, Solución, Producto */
+.Problema, .Solucion, .Producto {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 40%; /* Cada caja ocupará el 40% del ancho */
+}
+
+/* Flotado de las cajas */
+.Problema {
+    float: right; /* Flota a la derecha */
+}
+
+.Solucion {
+    float: left; /* Flota a la izquierda */
+}
+
+.Producto {
+    float: right; /* Flota a la derecha */
+}
+
+/* Estilos para los encabezados */
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+/* Estilos de los párrafos */
+p {
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* Clearfix para los elementos flotantes */
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
